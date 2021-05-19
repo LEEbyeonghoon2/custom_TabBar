@@ -9,8 +9,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let label: UILabel! = UILabel()
     override func viewDidLoad() {
-        let label = UILabel(frame: CGRect(x: 100, y: 200, width: 200, height: 100))
+        label.frame = CGRect(x: 100, y: 200, width: 200, height: 100)
         
         label.text = "첫번째 뷰컨트롤러"
         label.font = UIFont.boldSystemFont(ofSize: 20)
@@ -20,6 +21,14 @@ class ViewController: UIViewController {
         
         self.view.addSubview(label)
         super.viewDidLoad()
+    }
+    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+        let tabBar = self.tabBarController?.tabBar
+        
+        UIView.animate(withDuration: TimeInterval(0.3)) {
+            tabBar?.alpha = tabBar?.alpha == 1 ? 0 : 1
+            self.label.textColor = self.label.textColor == .green ? .red : .green
+        }
     }
 
 
