@@ -1,18 +1,17 @@
 //
-//  ViewController.swift
+//  ViewController3.swift
 //  custom_TabBar
 //
-//  Created by 이병훈 on 2021/05/18.
+//  Created by 이병훈 on 2021/05/19.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController3: UIViewController{
     override func viewDidLoad() {
         let label = UILabel(frame: CGRect(x: 100, y: 200, width: 200, height: 100))
         
-        label.text = "첫번째 뷰컨트롤러"
+        label.text = "세번째 뷰컨트롤러"
         label.font = UIFont.boldSystemFont(ofSize: 20)
         label.textColor = .green
         label.sizeToFit()
@@ -21,7 +20,4 @@ class ViewController: UIViewController {
         self.view.addSubview(label)
         super.viewDidLoad()
     }
-
-
 }
-

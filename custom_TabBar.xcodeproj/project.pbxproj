@@ -13,6 +13,11 @@
 		BC10E74D265365DC00379F1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC10E74B265365DC00379F1D /* Main.storyboard */; };
 		BC10E74F265365DD00379F1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC10E74E265365DD00379F1D /* Assets.xcassets */; };
 		BC10E752265365DD00379F1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC10E750265365DD00379F1D /* LaunchScreen.storyboard */; };
+		BC305ED82654A14E00A05991 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC305ED72654A14E00A05991 /* ViewController2.swift */; };
+		BC305EDA2654A15400A05991 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC305ED92654A15400A05991 /* ViewController3.swift */; };
+		BC305EE22654A52D00A05991 /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = BC305EE12654A52D00A05991 /* calendar.png */; };
+		BC305EE42654A54600A05991 /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = BC305EE32654A54600A05991 /* photo.png */; };
+		BC305EE62654A54E00A05991 /* twitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC305EE52654A54E00A05991 /* twitter@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		BC10E74E265365DD00379F1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC10E751265365DD00379F1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC10E753265365DD00379F1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC305ED72654A14E00A05991 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		BC305ED92654A15400A05991 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		BC305EE12654A52D00A05991 /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
+		BC305EE32654A54600A05991 /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
+		BC305EE52654A54E00A05991 /* twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +69,15 @@
 				BC10E745265365DC00379F1D /* AppDelegate.swift */,
 				BC10E747265365DC00379F1D /* SceneDelegate.swift */,
 				BC10E749265365DC00379F1D /* ViewController.swift */,
+				BC305ED72654A14E00A05991 /* ViewController2.swift */,
+				BC305ED92654A15400A05991 /* ViewController3.swift */,
 				BC10E74B265365DC00379F1D /* Main.storyboard */,
 				BC10E74E265365DD00379F1D /* Assets.xcassets */,
 				BC10E750265365DD00379F1D /* LaunchScreen.storyboard */,
 				BC10E753265365DD00379F1D /* Info.plist */,
+				BC305EE52654A54E00A05991 /* twitter@2x.png */,
+				BC305EE12654A52D00A05991 /* calendar.png */,
+				BC305EE32654A54600A05991 /* photo.png */,
 			);
 			path = custom_TabBar;
 			sourceTree = "<group>";
@@ -125,6 +140,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC10E752265365DD00379F1D /* LaunchScreen.storyboard in Resources */,
+				BC305EE22654A52D00A05991 /* calendar.png in Resources */,
+				BC305EE62654A54E00A05991 /* twitter@2x.png in Resources */,
+				BC305EE42654A54600A05991 /* photo.png in Resources */,
 				BC10E74F265365DD00379F1D /* Assets.xcassets in Resources */,
 				BC10E74D265365DC00379F1D /* Main.storyboard in Resources */,
 			);
@@ -137,7 +155,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC305EDA2654A15400A05991 /* ViewController3.swift in Sources */,
 				BC10E74A265365DC00379F1D /* ViewController.swift in Sources */,
+				BC305ED82654A14E00A05991 /* ViewController2.swift in Sources */,
 				BC10E746265365DC00379F1D /* AppDelegate.swift in Sources */,
 				BC10E748265365DC00379F1D /* SceneDelegate.swift in Sources */,
 			);
